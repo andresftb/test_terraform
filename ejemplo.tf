@@ -9,7 +9,7 @@ terraform {
 
 provider "aws" {
   profile = "default"
-  region  = "eu-central-1"
+  region  = "us-central-1"
 }
 
 resource "aws_instance" "example" {
